@@ -1,7 +1,7 @@
-# SignatureApp
+# DigiSign - Signature App
 
 ## Overview
-The Digital Signature App is a simple web application that allows users to create a digital signature and download it as an image file. The app is built using HTML, CSS, and JavaScript.
+DigiSign is a simple web application that allows users to create a digital signature and download it as an image file. The app is built using HTML, CSS, and JavaScript.
 
 ## Features
 - Draw a digital signature on a canvas.
