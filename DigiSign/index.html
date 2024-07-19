@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiSign</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="favicon-16x16.png" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>DigiSign</h1>
+      <div class="controls">
+        <div class="control-group">
+          <p>Text Color Picker</p>
+          <input type="color" id="colorPicker" />
+        </div>
+        <div class="control-group">
+          <p>Background</p>
+          <input type="color" id="canvasColor" />
+        </div>
+        <div class="control-group">
+          <p>Font Size</p>
+          <select id="fontPicker">
+            <option value="2">2 px</option>
+            <option value="3">3 px</option>
+            <option value="5">5 px</option>
+            <option value="10">10 px</option>
+            <option value="20">20 px</option>
+            <option value="30">30 px</option>
+            <option value="40">40 px</option>
+            <option value="50">50 px</option>
+          </select>
+        </div>
+      </div>
+      <div class="canvas-container">
+        <canvas id="myCanvas" width="600" height="400"></canvas>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-danger" id="clearButton">Clear</button>
+        <button class="btn btn-success" id="saveButton">Save & Download</button>
+        <button class="btn btn-warning" id="retrieveButton">
+          Retrieve Saved Signature
+        </button>
+        <button class="btn btn-blue" id="undoButton">Undo</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
